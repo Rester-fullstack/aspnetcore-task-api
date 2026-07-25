@@ -1,79 +1,95 @@
-# API de Tarefas com Autenticação JWT
+# ✅ API de Gerenciamento de Tarefas
 
-Visão Geral
+API REST desenvolvida em **ASP.NET Core** para gerenciamento de tarefas com autenticação baseada em **JSON Web Token (JWT)**.
 
-A aplicação permite gerenciamento de tarefas com autenticação segura utilizando **JSON Web Token (JWT)**.
-
----
-
-Funcionalidades
-
-✅ CRUD completo de tarefas  
-✅ Autenticação e autorização com JWT  
-✅ Hash seguro de senha usando BCrypt  
-✅ Repository Pattern  
-✅ Interface OpenAPI com Scalar UI  
-✅ Arquitetura modular para escalabilidade  
+O projeto demonstra boas práticas de desenvolvimento backend utilizando arquitetura em camadas, Entity Framework Core, autenticação segura e persistência de dados em SQL Server.
 
 ---
 
-Tecnologias Utilizadas
+## 🚀 Funcionalidades
+
+- Cadastro de usuários
+- Login com JWT
+- CRUD completo de tarefas
+- Rotas protegidas
+- Hash de senha com BCrypt
+- Persistência em SQL Server
+- Documentação da API com Scalar
+
+---
+
+## 🛠 Tecnologias
 
 - C#
-- .NET 9
+- ASP.NET Core (.NET 9)
 - Entity Framework Core
 - SQL Server
-- JWT Authentication
-- BCrypt Password Hashing
-
-
-
----
-
-Segurança
-
-O sistema implementa:
-
-- Token JWT para controle de acesso  
-- Hash criptográfico de senhas  
-- Middleware de autorização  
+- JWT
+- BCrypt
+- Scalar/OpenAPI
 
 ---
 
-Estrutura do Projeto
+## 📂 Estrutura
 
-
-Controllers/ → Endpoints da API
-Data/ → Contexto do banco
-Models/ → Entidades do sistema
-Repositories/ → Camada de acesso a dados
-Services/ → Regras de negócio
-
+Controllers/
+Data/
+Models/
+Repositories/
+Services/
 
 ---
 
-Como Executar o Projeto
+## 🔐 Segurança
 
-1. Clone o repositório
- git clone https://github.com/seuusuario/tarefas-api-dotnet.git
+- Autenticação JWT
+- Autorização
+- Hash BCrypt
+- Rotas protegidas
 
-3. Restaurar dependências
- dotnet restore
- 
-4. Executar aplicação
- dotnet run
- 
-Interface da API
+---
 
-Acesse a documentação interativa:
- http://localhost:5168/scalar/v1
+## ▶️ Como executar
 
-Credenciais de Teste
- Username: admin
- Password: 123456
- 
- Autor
- Projeto desenvolvido para portfólio backend.
+```bash
+git clone https://github.com/Rester-fullstack/tarefas-api-dotnet.git
 
-Licença
- Projeto de uso pessoal.
+cd tarefas-api-dotnet
+
+dotnet restore
+
+dotnet run
+```
+
+---
+
+## 📄 Documentação
+
+Após executar o projeto:
+
+```
+http://localhost:5168/scalar/v1
+```
+
+## 📚 Objetivos
+
+Projeto desenvolvido para praticar:
+
+- ASP.NET Core
+- APIs REST
+- Entity Framework Core
+- SQL Server
+- JWT
+- Repository Pattern
+- Arquitetura em camadas
+- Autenticação e autorização
+
+---
+
+## 👩‍💻 Desenvolvedora
+
+Ester da Costa Batista
+
+GitHub:
+
+https://github.com/Rester-fullstack
