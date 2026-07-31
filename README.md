@@ -96,7 +96,7 @@ A API implementa mecanismos de segurança para proteger os recursos da aplicaç�
 ### Clone o repositório
 
 ```bash
-git clone https://github.com/Rester-fullstack/tarefas-api-dotnet.git
+git clone https://github.com/Rester-fullstack/aspnetcore-task-api.git
 ```
 
 Entre na pasta do projeto
